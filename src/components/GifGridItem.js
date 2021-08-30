@@ -1,9 +1,9 @@
 import React from 'react'
 import './GifGridItem.css'
 
-export const GifGridItem = ({ id, title, url }) => {
+const GifGridItem = ({ id, title, url }) => {
     return (
-        <div className="gif-card" >
+        <div className="gif-card animate__animated animate__backInDown" >
             <img 
                 src={url} 
                 alt={title}
@@ -13,3 +13,4 @@ export const GifGridItem = ({ id, title, url }) => {
         </div>
     )
 }
+export default GifGridItem
