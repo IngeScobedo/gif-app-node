@@ -1,0 +1,11 @@
+
+*{
+    font-family: 'Laguna Hills DEMO';
+}
+.gif-app{
+    display: flex;
+    flex-direction: column;
+}
+.title-app{
+    text-align: center;
+}
