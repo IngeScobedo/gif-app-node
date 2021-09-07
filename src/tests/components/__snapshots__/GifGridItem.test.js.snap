@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing - <GifGridItem/>  Debe mostrar el componente correctamente 1`] = `
+<div
+  className="gif-card animate__animated animate__backInDown"
+>
+  <img
+    alt="GifMeme"
+    className="gif-card-image"
+    src="https://media2.giphy.com/media/liBsVeLILcyaY/giphy.gif?cid=e2157891xehcho4qeilo5iaijtazd6hkv6ooyrzxaxl2j88h&rid=giphy.gif&ct=g"
+  />
+  <p
+    className="gif-title"
+  >
+    GifMeme
+  </p>
+</div>
+`;

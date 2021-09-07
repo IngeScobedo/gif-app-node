@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 const getGifs = async (category) => {
   const url = `https://api.giphy.com/v1/gifs/search?api_key=iA39iJnWzk5bUHe4cgfuJC9ZT6RniYOf&q=${encodeURI(
     category
@@ -15,5 +16,8 @@ const getGifs = async (category) => {
   });
   return gifs;
 };
+getGifs.propTypes = {
+  category: PropTypes.string.isRequired,
+}
 
 export default getGifs;
